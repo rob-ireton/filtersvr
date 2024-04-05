@@ -1,0 +1,15 @@
+{
+  "name": "filtersvr",
+  "version": "1.0.0",
+  "description": "express server to content filter kviewer, little reminder of express usage!",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rob Ireton",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
