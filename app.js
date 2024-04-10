@@ -34,7 +34,7 @@ const getHandler = (url) => {
         let content = JSON.parse(data);
 
         if (date) {
-          content = filterByDate(content, date)
+          content.result = filterByDate(content, date)
           console.log(`Filetering by date: ${date} gave ${content.length} objects`);
         }
         // Now respond with the data to our requester
